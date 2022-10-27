@@ -25,3 +25,16 @@ for x in range(122):
   print(x) 
 #ci stampa tutti i numeri compresi, in collona, tra 0 e 122 con il numero che consideriamo non incluso 
 
+for x in range(2, 6):
+  print(x)
+  #stampa tutti i numeri compresi tra il primo e l'ultimo, escluso l'ultimo 
+
+  for x in range(2, 30, 3):
+  print(x) 
+#stamapa i numeri tra 2 e 30, escluso 30, incrementando di 3 
+
+for x in range(6):
+  print(x)
+else:
+  print("Finally finished!")
+  #
